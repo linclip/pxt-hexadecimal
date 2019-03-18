@@ -9,20 +9,20 @@ Including 2 digits font.
 ### Hexadecimal (0 to 255)
 ```blocks
 input.onButtonPressed(Button.A, () => {
-    hexadecimal.showHex(0)
+    hexadecimal.showNumberHex(0)
 })
 input.onButtonPressed(Button.B, () => {
-    hexadecimal.showHex(255)
+    hexadecimal.showNumberHex(255)
 })
 ```
 
-### 2 digits (-9 to 99)
+### Decimal (-9 to 99)
 ```blocks
 input.onButtonPressed(Button.A, () => {
-    hexadecimal.show2digits(0)
+    hexadecimal.showNumberDecimal(0)
 })
 input.onButtonPressed(Button.B, () => {
-    hexadecimal.show2digits(99)
+    hexadecimal.showNumberDecimal(99)
 })
 ```
 

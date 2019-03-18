@@ -22,12 +22,12 @@ namespace hexadecimal {
     ]
 
     /**
-     * show number in hexadecimal
+     * show number in hexadecimal (two digits)
      * @param v number, eg: 0
      */
     //% blockId=showHex block="Show Hex  %v"
 
-    export function showHex(v: number): void {
+    export function showNumberHex(v: number): void {
         basic.clearScreen()
         if (v < 0) {
             basic.showLeds(`
@@ -74,11 +74,11 @@ namespace hexadecimal {
     ]
 
     /**
-     * show number in two digits
+     * show number in decimal (two digits)
      * @param v Numer, eg: 0
      */
     //% blockId=show2digits block="two digits  %v"
-    export function show2digits(v: number): void {
+    export function showNumberDecimal(v: number): void {
         basic.clearScreen()
         if (v < -9) {
             basic.showLeds(`

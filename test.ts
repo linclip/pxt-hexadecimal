@@ -14,7 +14,7 @@ input.onButtonPressed(Button.A, function () {
     if (counter < 0) {
         counter = 0
     }
-    hexadecimal.showHex(counter)
+    hexadecimal.showNumberHex(counter)
 })
 input.onButtonPressed(Button.B, function () {
     loopFlag = 0
@@ -22,18 +22,18 @@ input.onButtonPressed(Button.B, function () {
     if (counter > 255) {
         counter = 255
     }
-    hexadecimal.showHex(counter)
+    hexadecimal.showNumberHex(counter)
 })
 input.onGesture(Gesture.Shake, function () {
     counter = 0
-    hexadecimal.showHex(counter)
+    hexadecimal.showNumberHex(counter)
 })
 input.onPinPressed(TouchPin.P1, function () {
     counter += -16
     if (counter < 0) {
         counter = 0
     }
-    hexadecimal.showHex(counter)
+    hexadecimal.showNumberHex(counter)
 })
 input.onPinPressed(TouchPin.P0, function () {
     loopFlag = 0
@@ -47,17 +47,17 @@ input.onPinPressed(TouchPin.P0, function () {
     hundred = 0
     if (counter > 99) {
         hundred = Math.floor(counter / 100)
-        hexadecimal.show2digits(hundred)
+        hexadecimal.showNumberDecimal(hundred)
         basic.pause(1000)
     }
-    hexadecimal.show2digits(counter)
+    hexadecimal.showNumberDecimal(counter)
 })
 input.onPinPressed(TouchPin.P2, function () {
     counter += 16
     if (counter > 255) {
         counter = 255
     }
-    hexadecimal.showHex(counter)
+    hexadecimal.showNumberHex(counter)
 })
 counter = 0
 basic.showIcon(IconNames.Happy)
@@ -67,7 +67,7 @@ basic.forever(function () {
         if (counter > 255) {
             counter = 0
         }
-        hexadecimal.showHex(counter)
-        basic.pause(100)
+        hexadecimal.showNumberHex(counter)
+        basic.pause(300)
     }
 })

@@ -1,8 +1,9 @@
-# pxt-hexadecimal
+# Hexadecimal font (2x5) for micro:bit
 
-Hexadecimal font for micro:bit.
-You can show number in hexadecimal.
-Including 2 digits font.
+This is a Hexadecimal font for micro:bit.
+You can show number in hexadecimal (2 digits).
+
+Including decimal font (2 digits)
 
 ## Code Example
 

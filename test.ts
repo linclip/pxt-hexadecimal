@@ -38,11 +38,11 @@ input.onPinPressed(TouchPin.P1, function () {
 input.onPinPressed(TouchPin.P0, function () {
     loopFlag = 0
     basic.showLeds(`
-        # # . . .
-        . # . . #
-        # # . . #
-        # . . # #
-        # # . # #
+        . . . . .
+        . . . . .
+        # . # # #
+        # . # . #
+        # . # # #
         `)
     hundred = 0
     if (counter > 99) {

@@ -1,10 +1,9 @@
 {
     "name": "pxt-hexadecimal",
     "version": "0.0.1",
-    "description": "",
+    "description": "Show Number in Hexadecimal",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
@@ -13,5 +12,5 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": false
+    "public": true
 }

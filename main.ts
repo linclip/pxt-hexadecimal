@@ -26,7 +26,7 @@ namespace hexadecimal {
      * show number in hexadecimal (two digits)
      * @param v number, eg: 0
      */
-    //% blockId=showHex block="Show Hex  %v"
+    //% blockId=showHex block="Show Hexadecimal  %v" weight=100
 
     export function showNumberHex(v: number): void {
         basic.clearScreen()
@@ -59,26 +59,11 @@ namespace hexadecimal {
             }
         }
     }
-/*
-    const numFont = [
-        ["11", "11", "11", "11", "11"],   //0
-        ["01", "01", "01", "01", "01"],   //1
-        ["11", "01", "11", "10", "11"],   //2
-        ["11", "01", "11", "01", "11"],   //3
-        ["10", "10", "11", "01", "01"],   //4
-        ["11", "10", "11", "01", "11"],   //5
-        ["11", "10", "11", "11", "11"],   //6
-        ["11", "01", "01", "01", "01"],   //7
-        ["11", "11", "00", "11", "11"],   //8
-        ["11", "11", "11", "01", "11"],   //9
-        ["00", "00", "11", "00", "00"]    //-
-    ]
-*/
     /**
      * show number in decimal (two digits)
      * @param v Numer, eg: 0
      */
-    //% blockId=showNumberDecimal block="two digits  %v"
+    //% blockId=showNumberDecimal block="Show Decimal  %v"  weight=50
     export function showNumberDecimal(v: number): void {
         basic.clearScreen()
         if (v < -9) {

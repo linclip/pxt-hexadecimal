@@ -7,7 +7,7 @@ Including decimal font (2 digits)
 
 ## Code Example
 
-### Hexadecimal (0 to 255)
+### Hexadecimal (0 to 255: ff)
 ```blocks
 input.onButtonPressed(Button.A, () => {
     hexadecimal.showNumberHex(0)

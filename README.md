@@ -27,6 +27,12 @@ input.onButtonPressed(Button.B, () => {
 })
 ```
 
+## More info
+
+0 to 9 Font is from [whaleygeek/mb_clock](https://github.com/whaleygeek/mb_clock).
+
+[description and demo video](http://newbodyfresher.linclip.com/hexadecimal-font-for-microbit)
+
 ## License
 
 MIT

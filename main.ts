@@ -23,7 +23,7 @@ namespace hexadecimal {
     ]
 
     /**
-     * show number in hexadecimal (two digits)
+     * show 2-digit hexadecimal number (0 to 255)
      * @param v number, eg: 0
      */
     //% blockId=showHex block="Show Hexadecimal  %v" weight=100
@@ -60,7 +60,7 @@ namespace hexadecimal {
         }
     }
     /**
-     * show number in decimal (two digits)
+     * show 2-digit decimal number (-9 to 99)
      * @param v Numer, eg: 0
      */
     //% blockId=showNumberDecimal block="Show Decimal  %v"  weight=50

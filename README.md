@@ -31,7 +31,7 @@ input.onButtonPressed(Button.B, () => {
 
 0 to 9 Font is from [whaleygeek/mb_clock](https://github.com/whaleygeek/mb_clock).
 
-[description and demo video](http://newbodyfresher.linclip.com/hexadecimal-font-for-microbit)
+[more description and demo video / 日本語の説明とデモ動画](http://newbodyfresher.linclip.com/hexadecimal-font-for-microbit)
 
 ## License
 

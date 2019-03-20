@@ -1,6 +1,6 @@
 {
     "name": "pxt-hexadecimal",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Show Number in Hexadecimal",
     "dependencies": {
         "core": "*"
